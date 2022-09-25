@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#logo{
+    width: 150px;
+    height: 5em;
+}
+body {
+   
+    background-position: center; 
+    background-size: cover;
+}
+#bg_img{
+    background-size: cover;
+    height: 500px;
+}
+.loginpage{
+    background: rgba(201, 241, 207, 0.3);
+    
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 50em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.buttons{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-right: 1pt;
+    border-bottom: 1pt;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.form{
+    float: right;
+    background: #528b89d8;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.form input{
+    width: 80%;
+}
+footer{
+    background-color:gray;
+    color: white;
+    margin-top: 5em;
+    text-align: center;
+    height: 2em;
+}
+

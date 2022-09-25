@@ -1,0 +1,351 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#logo{
+    width: 150px;
+    height: 5em;
+}
+body {
+   
+    background-position: center; 
+    background-size: cover;
+}
+
+ .sticky-top{
+     position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 2px 2px rgb(175 163 163); 
+     z-index: 3; 
+     transition: all .3s; 
+ } 
+.nav-item a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    /* border: 1px solid ;
+    border-radius: 10px; */
+    color: black;
+    
+}
+.nav-item a:hover {
+    background-color: beige;
+    border-radius:10px ;
+    
+   
+}
+#text{
+    margin-right: 300px;
+    margin-bottom: 150px; 
+    color:white;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    
+    
+}
+
+/* .login_butten{
+    border: 1px solid #03396c;
+    background-color: #03396c;
+    color: #fff;
+    font-weight: 50;
+    border-radius: 80px;
+    padding: 15px;
+    text-decoration: none;
+    width: 1px;
+    margin-bottom: 300px; */
+
+/* }  */
+/* .signup_button{
+    border: 1px solid #fff;
+    background-color: white;
+    color: #03396c;
+    border-radius: 80px;
+    text-decoration: none;
+    font-weight: 50;
+    padding: 15px;
+}
+  a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+} */
+/* ................explore kerala............ */
+.section-district {
+    padding-left: 5%;
+    padding-right: 3%;
+}
+section {
+    padding: 80px 0;
+}
+h2 {
+    font-size: 180%;
+    color: #000000c9;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.long-text {
+    text-align: justify;
+    line-height: 200%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    font-weight: 100;
+    font-size: larger;
+}
+
+p {
+    
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+
+}
+.district-showcase {
+    list-style: none;
+    width: 100%;
+}
+.clearfix {
+    zoom: 1;
+}
+a {
+    background-color: transparent;
+    color: #0d6efd;
+    text-decoration: underline;
+}
+.district-showcase li {
+    display: block;
+    float: left;
+    width: 14.2%;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-left: 2rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.district-photo {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+figure {
+    margin: 0.0 1rem;
+}
+.district-photo img {
+    opacity: .4;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.district-photo img:hover{
+    opacity: 10;
+}
+img {
+    border-style: none;
+}
+img, svg {
+    vertical-align: middle;
+}
+div {
+    display: block;
+}
+.district-name p{
+font-size: 100%;
+color: rgba(255, 255, 255, 0.801);
+z-index: 2;
+position: absolute;
+transform: translate(10%, -150%);
+}
+p {
+margin-top: 0;
+margin-bottom: 1rem;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    
+}
+/* ---------------footer--------------------------- */
+/* footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    zoom: 1;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.row:before, .row:after {
+    content: "";
+    display: table;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.col:first-child {
+    margin-left: 0;
+}
+.span-1-of-2 {
+    width: 49.2%;
+}
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+.col {
+    flex: 1 0 0%;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    padding-left: calc(var(--bs-gutter-x)/ 2);
+    margin-top: var(--bs-gutter-y);
+}
+
+ul {
+    list-style-type: disc;
+}
+i {
+    font-style: italic;
+}
+.social-links li a:link, .social-links li a:visited {
+    font-size: 160%;
+}
+.footer-nav li a:link, .footer-nav li a:visited, .social-links li a:link, .social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+/* .ion-logo-facebook, .ion-logo-twitter, .ion-logo-googleplus, .ion-logo-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.ion-logo-facebook:before {
+    content: "";
+}
+    display: inline-block;
+    font-family: "Ionicons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+/* footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+} */
+
+.footer{
+    background-color: #d9dde0;
+     text-align: center; 
+    color:gray;
+    height: 16em;
+  }
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-twitter {
+    color:#6c757d;
+  }
+  
+  
+  .fa-facebook {
+ 
+    color:#6c757d;
+  }
+  .fa-instagram {
+    color:#6c757d;
+  }
+  .fa-linkedin {
+    color:#6c757d;
+  }
+  

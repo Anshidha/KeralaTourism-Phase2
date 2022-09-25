@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#logo{
+    width: 150px;
+    height: 5em;
+}
+body {
+   
+    background-position: center; 
+    background-size: cover;
+}
+.form{
+    background: #528b89d8;
+    text-align: center;
+    border: 0px solid black;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 35%;
+    margin-left: 35%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.form input{
+    width: 80%;
+}
+.buttons{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-right: 1pt;
+    border-bottom: 1pt;
+    border-radius: 5px;
+    background-color:blue;
+}
+footer{
+    background-color: gray;
+    color: white;
+    margin-top: 5em;
+    text-align: center;
+    height: 2em;
+}
